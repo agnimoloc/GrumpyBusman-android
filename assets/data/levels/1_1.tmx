@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="200" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="desert" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="512" height="256"/>
+  <terraintypes>
+   <terrain name="Terreno" tile="-1"/>
+   <terrain name="Road" tile="-1"/>
+  </terraintypes>
+  <tile id="5" terrain="1,1,1,1"/>
+  <tile id="6" terrain="1,1,1,1"/>
+  <tile id="7" terrain="1,1,1,1"/>
+  <tile id="20" terrain="1,1,1,1"/>
+  <tile id="21" terrain="1,1,1,1"/>
+  <tile id="22" terrain="1,1,1,1"/>
+  <tile id="35" terrain="1,1,1,1"/>
+  <tile id="36" terrain="1,1,1,1"/>
+  <tile id="37" terrain="1,1,1,1"/>
+  <tile id="50" terrain="0,0,0,0"/>
+  <tile id="51" terrain="0,0,0,0"/>
+  <tile id="52" terrain="0,0,0,0"/>
+  <tile id="65" terrain="0,0,0,0"/>
+  <tile id="66" terrain="0,0,0,0"/>
+  <tile id="67" terrain="0,0,0,0"/>
+  <tile id="80" terrain="0,0,0,0"/>
+  <tile id="81" terrain="0,0,0,0"/>
+  <tile id="82" terrain="0,0,0,0"/>
+ </tileset>
+ <layer name="background" width="50" height="200">
+  <data encoding="base64" compression="zlib">
+   eJzt2Dtuw0AMBFDdyUmbIskF4tz/LlETQCD8kZdDzhCYQgDdyLb2aTncy7Ztb/v1vl+XB/Xx88fi9ej+2fpzv7726/tJffy8+j/OftdK/bNf1/36fVIfPyPW4+z3nq3Prh3C1fE5TnZ1fI52ZVd2ZVd2Ve8q2mK4etvwthiuvja8LYar64bfs+zKruzKruzKruzKruzKruzKrs7WU13FeqqrWCNsTXUVbU11FW3ZlV3ZlZ4rxHoouEKsh4qr7Lt+vB9zv0LYQljK7lcIWwhLbFfRll3Z1a11nOoqriPCFitfoW1NdRVt2ZVd/dfIPYs5D6JtseZBtK2prqItu7IrVIZXcKWU4bOZWSXDozNz1hbLFSJrKbhCZC270nIVbU11FW2xXClkeIQrRNZScIXIWnal5Sramuoq2mK5Ymd4lCtEhldwhcjwdqXlKtqa6iraYrliZnikK+ZsiHTFnA3tSms2VHMVbbFcsTI82hVrNkS7Ys2GdqU1Gyq6irZYrhgZvsIVIsMruGLMhnalNRuquoq2WK66M3yVq+7ZsMpV92xoV1qzobKraIvlqjPDV7rqnA0rXXXOhnZlVxNdZTO8iitEhj/ej+WqazZUdxVt2ZVdoTK8iquO2bDDVcds2OUqux7MefBYI9eD5SrbP+J6sFwh33GmK6Qp1n6FNsXar5CmmPsV0hSrD6JNsfog+jyR5Qp9nmhXXFf39otprp5lqg5XHZmqw1VHpupw1ZGpql11ZapqV12ZqtpVV6aqdNXZ+ypddWaqSledmarKFcKUgiu0qdVzV3bvi6Ze+Q1KvS+aWj13Zfa+aOrV36DS+6KpzHk+s/dFU5nz/Gm9D+2K1fsUXa30PjVXq71PzdVq70O6Qpta/T2TMxXSFTNToVyxMxXKFTtToVyxMxXClUKmQrhSyFQIVwqZKuuqwlQ2403ufVlXKr0v40qp993bP8/UCFMVrl79/whTFa4yz2KyK8T7gcpUGVeI9wOVqdiuUJmK6Qrx7G/V3a5Q5+Kx7naFOhePtV3ZlV3ZlV3ZlV3ZlV3ZlV3ZlV3ZlV3ZlV3ZlbKrPzkEA3c=
+  </data>
+ </layer>
+ <objectgroup name="paths">
+  <object name="1" x="866.667" y="6393.94">
+   <polyline points="0,0 0,-875.758 363.636,-2224.24 439.394,-2518.18 384.848,-2915.15 109.091,-4684.85 -12.1212,-5621.21 -30.303,-6390.91"/>
+  </object>
+  <object name="0" x="690.909" y="6396.97">
+   <polyline points="0,0 0,-875.758 363.636,-2224.24 439.394,-2518.18 384.848,-2915.15 109.091,-4684.85 -12.1212,-5621.21 -30.303,-6390.91"/>
+  </object>
+  <object name="-1" x="487.879" y="6393.94">
+   <polyline points="0,0 0,-875.758 363.636,-2224.24 439.394,-2518.18 384.848,-2915.15 109.091,-4684.85 -12.1212,-5621.21 -30.303,-6390.91"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="collision"/>
+</map>
